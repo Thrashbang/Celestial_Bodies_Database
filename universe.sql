@@ -85,7 +85,6 @@ INSERT INTO planet(planet_id, name, age, radius, inhabitants, star)
   ('225088 Gonggong', NULL, NULL, false, 'The Sun');
 
 INSERT INTO moon(moon_id, name, age, radius, inhabitants, planet)
-
   VALUES('The Moon', 4.46, 1079, false, 'Earth'),
   ('Europa', 4.503, 969, false, 'Jupiter'),
   ('Ganymede', 4.5, 1636, false, 'Jupiter'),
@@ -108,3 +107,6 @@ INSERT INTO moon(moon_id, name, age, radius, inhabitants, planet)
   ('Philophrosyne', 4.5, 0, false, 'Jupiter');
 
 INSERT INTO comet(comet_id, name, age, radius, inhabitants)
+  VALUES('Halleys Comet', 2000, 3, false),
+  ('Comet Holmes', NULL, 1, false),
+  ('McNaught Comet', 6000000, 15869820, false);
