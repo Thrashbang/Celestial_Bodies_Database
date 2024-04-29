@@ -1,4 +1,4 @@
-CREATE TABLE galaxy(
+CREATE TBLE galaxy(
   galaxy_id SERIAL PRIMARY KEY,
   name VARCHAR(30) NOT NULL UNIQUE,
   age_in_billions NUMERIC(4, 2),
